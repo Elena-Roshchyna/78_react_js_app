@@ -1,0 +1,37 @@
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 300px;
+  padding: 25px;
+  background-color: rgb(150, 221, 208);
+  color: rgb(16, 7, 45);
+  border-radius: 12px;
+  font-size: 24px;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.product-card p {
+  margin: 0;
+  font-size: 22px;
+}
+
+.product-card.apple {
+  background-color: #26ec79 ;
+}
+
+.product-card.banana {
+  background-color: #f2f23a;
+}
+
+.product-card.orange {
+  background-color: #f18629;
+}

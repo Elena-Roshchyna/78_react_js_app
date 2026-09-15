@@ -7,19 +7,27 @@ import "./App.css";
 
 // Homeworks imports
 // import Homework02 from "./homeworks/Homework02/Homework02";
-import Homework02_My from "./homeworks/Homework02_My/Homework02_My";
+// import Homework02_My from "./homeworks/Homework02_My/Homework02_My";
+import Homework03_My from "./homeworks/Homework03_My/Homework03_My";
 
 function App() {
   return (
     <div className="app">
       {/* Lesson 01. Introduction */}
       {/* <Lesson01 /> */}
+
       {/* Lesson 02. Props */}
       {/* <Lesson02 /> */}
+
       {/* Homework 02. Props */}
-      <Homework02_My />
+      {/* <Homework02_My /> */}
+
+      {/* Homework 03. Map components */}
+      <Homework03_My />
+
       {/* Lesson 03. Map components */}
       {/* <Lesson03/> */}
+
       {/* Lesson 04. State */}
       {/* <Lesson04 /> */}
     </div>
