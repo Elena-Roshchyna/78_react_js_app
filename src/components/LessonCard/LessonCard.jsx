@@ -1,10 +1,17 @@
-import LessonCard from "../../components/LessonCard/LessonCard";
 import "./styles.css";
-function Lesson02() {
+// Именованный импорт
+import { lessonData } from "./data";
+
+function LessonCard() {
   return (
-    <div className="lesson02-wrapper">
-      <LessonCard />
+    <div className="lesson-card-wrapper">
+      <h3>Lesson {lessonData.lesson_number}</h3>
+      <p>{lessonData.topic}</p>
+      <p>{lessonData.teacher_name}</p>
+      <img src={lessonData.img_src} />
     </div>
   );
 }
-export default Lesson02;
+
+export default LessonCard;
+

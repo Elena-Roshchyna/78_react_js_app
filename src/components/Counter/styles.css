@@ -1,37 +1,22 @@
 .counter-wrapper {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
-  padding: 30px;
-  background-color: #ffffff;
+  min-width: 400px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(46, 13, 81);
+  border-radius: 18px;
 }
 
-
-.counter-button {
-    width: 180px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    background-color: rgb(130, 243, 222);
-    color: rgb(16, 7, 45);
-    justify-content: center;
-    border-radius: 12px;
-    font-size: 42px;
-    border: none;
-    cursor: pointer;
-
+.button-wrapper {
+  width: 100px;
 }
 
-.counter-button:hover {
-  background-color: rgb(135, 212, 198);
-
+.result {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(46, 13, 81);
 }
 
-.counter-display {
-    font-size: 24px;
-    color: rgb(16, 7, 45);
-    min-width: 40px;
-    text-align: center;
-}

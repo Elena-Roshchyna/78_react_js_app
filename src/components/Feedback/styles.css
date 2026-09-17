@@ -1,0 +1,39 @@
+.feedback-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  min-width: 400px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(46, 13, 81);
+  border-radius: 18px;
+}
+
+.feedback-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.count-display {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(46, 13, 81);
+  min-width: auto;
+}
+
+
+.count-display {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(46, 13, 81);
+  min-width: auto;
+}
+
+.reset-wrapper {
+  width: 100%;
+  margin-top: 10px;
+}

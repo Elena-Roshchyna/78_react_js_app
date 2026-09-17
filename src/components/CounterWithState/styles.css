@@ -9,9 +9,11 @@
   border: 2px solid rgb(46, 13, 81);
   border-radius: 18px;
 }
+
 .button-wrapper {
   width: 100px;
 }
+
 .result {
   font-size: 28px;
   font-weight: bold;

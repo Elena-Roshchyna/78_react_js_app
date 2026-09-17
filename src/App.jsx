@@ -1,4 +1,5 @@
 import "./App.css";
+
 // Lessons imports
 // import Lesson01 from "./lessons/Lesson01/Lesson01";
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
@@ -6,30 +7,15 @@ import "./App.css";
 // import Lesson04 from "./lessons/Lesson04_React_state/Lesson04";
 
 // Homeworks imports
-// import Homework02 from "./homeworks/Homework02/Homework02";
-// import Homework02_My from "./homeworks/Homework02_My/Homework02_My";
-import Homework03_My from "./homeworks/Homework03_My/Homework03_My";
+// import Homework02 from "./Homeworks/Homework02/Homework02";
+// import Homework03_My from "./Homeworks/Homework03_My/Homework03_My";
+import Homework04_My from "./Homeworks/Homework04_My/Homework04_My";
 
 function App() {
   return (
     <div className="app">
-      {/* Lesson 01. Introduction */}
-      {/* <Lesson01 /> */}
-
-      {/* Lesson 02. Props */}
-      {/* <Lesson02 /> */}
-
-      {/* Homework 02. Props */}
-      {/* <Homework02_My /> */}
-
-      {/* Homework 03. Map components */}
-      <Homework03_My />
-
-      {/* Lesson 03. Map components */}
-      {/* <Lesson03/> */}
-
-      {/* Lesson 04. State */}
-      {/* <Lesson04 /> */}
+      {/* Homework 04. State (Feedback) */}
+      <Homework04_My />
     </div>
   );
 }
